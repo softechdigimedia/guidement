@@ -325,7 +325,6 @@ export default function CoursePlayerHubAdminPanel() {
       setTimeout(() => setUploadProgress(null), 1500);
     }
   };
-
   const deleteMutation = useMutation({
     mutationFn: async (id: string) => {
       if (activeKind === "tutorials") {
